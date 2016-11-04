@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#Magabot will look for tweets with #maga + [bitch,cunt,slut,whore]
+#Magabot will look for tweets with the Make America Great Again hashtag (#maga) + [bitch,cunt,slut,whore]
 #Magabot will then read them aloud to you. 
 #Run it in the background while you work for a great day!
 
@@ -44,8 +44,6 @@ for tweet in iterator:
     # We convert it back to the JSON format to print/score
     #print json.dumps(tweet)  
     
-    # The command below will do pretty printing for JSON data, try it out
-    #print json.dumps(tweet, indent=4)
        
     if 'text' in tweet: # only messages contains 'text' field is a tweet
             #print 'http://twitter.com/statuses/%i' %tweet['id']
