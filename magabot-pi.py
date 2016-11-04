@@ -45,8 +45,8 @@ for tweet in iterator:
             #print 'http://twitter.com/statuses/%i' %tweet['id']
             print tweet['id'] # This is the tweet's id
             print tweet['created_at'] # when the tweet posted
-            print tweet['user']['name'] # name of the user, e.g. "Wei Xu"
-            print tweet['user']['screen_name'] # name of the user account, e.g. "cocoweixu"
+            print tweet['user']['name'] # name of the user
+            print tweet['user']['screen_name'] # name of the user account
             print tweet['text'] # content of the tweet
             #convert tweet text to unicode so flite can read it
             tweettext=unicode(tweet['text']).encode('utf-8')
