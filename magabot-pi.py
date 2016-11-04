@@ -10,10 +10,6 @@ import json
 import os
 import re
 
-#import time
-#except ImportError:
-#import simplejson as json
-
 # Import the necessary methods from "twitter" library
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 
@@ -31,17 +27,17 @@ oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 twitter_stream = TwitterStream(auth=oauth)
 
 #you can change the search terms here, but why would you? FUN!!!
-iterator = twitter_stream.statuses.filter(track="#maga slut,#maga bitch,#maga whore", language="en")
-##maga slut, #maga bitch, #maga cunt
+iterator = twitter_stream.statuses.filter(track="#maga slut,#maga bitch,#maga whore, #maga cunt", language="en")
            
 # Here we set it to stop after getting 100 tweets. 
 # You don't have to set it to stop 
 tweet_count = 100
 
-# Print each tweet in the stream to the screen 
+
 for tweet in iterator:
     tweet_count -= 1
-    # We convert it back to the JSON format to print/score
+# Print each tweet in the stream to the screen 
+    # to convert it back to the JSON format to print/score
     #print json.dumps(tweet)  
     
        
