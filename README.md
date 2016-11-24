@@ -9,4 +9,6 @@ Video of MAGAbot in action: https://youtu.be/c3mxNi-5_WQ
 To run MAGAbot, you will need:
 flite,
 twitter package for python, 
-API keys/tokens from dev.twitter.com, 
+API keys/tokens from dev.twitter.com.
+
+Note: this version of the script does not include LCD character display output as it is intended to run on any computer with python installed. Please contact me for a RPi version with LCD output. 
