@@ -16,10 +16,10 @@ from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 # Variables that contains the user credentials to access Twitter API
 # Go to dev.twitter.com, using your twitter account, you will need to set up
 # an "app" in order to get your API keys and tokens
-CONSUMER_KEY = 'yourkeygoeshere'
-CONSUMER_SECRET = 'yoursecretconsumerkeygoeshere'
-ACCESS_TOKEN = 'youraccesstokengoeshere'
-ACCESS_SECRET = 'yoursecretaccesstokengoeshere'
+CONSUMER_KEY = 'yourkeygoeshere' #or, better yet, somewhere else
+CONSUMER_SECRET = 'yoursecretconsumerkeygoeshere' #or, better yet, somewhere else
+ACCESS_TOKEN = 'youraccesstokengoeshere' #or, better yet, somewhere else
+ACCESS_SECRET = 'yoursecretaccesstokengoeshere' #or, better yet, somewhere else
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
