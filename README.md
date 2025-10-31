@@ -4,7 +4,7 @@
 
 She is intended to catch you off guard. As the minutes pass, you forget she is there. And then, there it is. If it’s a busy day, this feeling may shift to annoyance, anger, sadness, acceptance….
 
-Video of MAGAbot in action: https://youtu.be/c3mxNi-5_WQ
+Video of MAGAbot in action: [https://youtu.be/c3mxNi-5_WQ](https://youtu.be/PD2uyMwMKfE)
 
 To run MAGAbot, you will need:
 flite,
